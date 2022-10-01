@@ -52,10 +52,20 @@ print('Test')
 # print(f'{a}---{2*a}---{3*a}---{4*a}---{5*a}')
 
 a = int(input())
-if a >= 2 and a <= 17:
-    b = 3
-    p = a * a + b * b
+if 7 < a < -3:
+    print('Принадлежит')
 else:
-    b = 5
-p = (a + b) * (a + b)
-print(p)
+    print('Не принадлежит')
+
+
+n = int(input())
+if not (-3 < n < 7):
+    print('Принадлежит')
+else:
+    print('Не принадлежит')
+
+x = int(input())
+if len(str(x)) == 4 and (x % 7 == 0 or x % 17 == 0):
+    print('YES')
+else:
+    print('NO')
