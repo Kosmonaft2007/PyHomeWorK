@@ -1,9 +1,9 @@
-# fail = open('/first_fail.txt', 'r')
+# fail = open('first_fail.txt', 'r')
 # mn_1 = fail.read()
 # fail.close()
 mn_1 = '5x^3+7x^2+5x+3=0'
 
-# fail = open('/second_fail.txt', 'r')
+# fail = open('second_fail.txt', 'r')
 # mn_2 = fail.read()
 # fail.close()
 mn_2 = '4x^2+24x+2=0'
